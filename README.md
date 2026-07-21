@@ -4,7 +4,7 @@
 
 kimi-code CLI（v0.28.1）的终端界面美化组件：将「紫金玫」配色与 Golden Night 字符流光（斜向扫光动画）注入 TUI 的启动横幅、信息面板、提示横幅与底栏模型名，并附带一套官方自定义主题文件。全部改动脚本化、锚定唯一、幂等可重跑。
 
-> 演示 GIF：`docs/assets/kimi-cli-visual.gif`（即将上传）
+![kimi-cli-visual 演示](docs/assets/kimi-cli-visual.gif)
 
 ## 效果一览
 
