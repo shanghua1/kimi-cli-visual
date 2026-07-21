@@ -21,6 +21,9 @@
 用法: python shimmerize.py [in.cjs] [out.cjs]
 默认: build/main.palette.cjs -> build/main.final.cjs
 幂等: 已含 SHIMMER 标记则报告并原样写出。另产出 build/dance-snippet.js 供单测。"""
+
+# Anchor excerpts are adapted from Moonshot AI's Kimi Code v0.28.1.
+# See THIRD_PARTY_NOTICES.md for the upstream MIT notice.
 import os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))

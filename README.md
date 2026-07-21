@@ -2,7 +2,7 @@
 
 **kimi-cli-visual** · v1.0.0
 
-kimi-code CLI（v0.28.1）的终端界面美化组件：将「紫金玫」配色与 Golden Night 字符流光（斜向扫光动画）注入 TUI 的启动横幅、信息面板、提示横幅与底栏模型名，并附带一套官方自定义主题文件。全部改动脚本化、锚定唯一、幂等可重跑。
+kimi-code CLI（v0.28.1）的终端界面美化组件：将「紫金玫」配色与 Golden Night 字符流光（斜向扫光动画）注入 TUI 的启动横幅、信息面板、提示横幅与底栏模型名，并附带一套兼容官方自定义主题机制的主题文件。全部改动脚本化、锚定唯一、幂等可重跑。
 
 ![kimi-cli-visual 演示](https://raw.githubusercontent.com/shanghua1/kimi-cli-visual/f55d325ec98746563fe5e6ea491bcfaeca56933f/docs/assets/kimi-cli-visual.gif)
 
@@ -79,6 +79,10 @@ python inject_exe.py build/blob.final.bin build/kimi.final.exe
 - 锚定字符串针对 v0.28.1 实测；若版本变化导致锚定漂移，脚本会因命中数 ≠ 1 而拒绝执行（安全失败）。
 - 操作前请备份 `kimi.exe`。
 - 本项目为第三方美化补丁，与 kimi-code 官方无关。请在自有授权的 kimi-code 副本上执行补丁；本仓库不含、也不应再分发官方二进制。
+
+## 许可证与第三方声明
+
+本项目原创脚本采用 MIT License，详见 [`LICENSE`](LICENSE)。其中改编自 Kimi Code v0.28.1 的代码片段及 npm 依赖的来源与许可证，详见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。Kimi 与 Kimi Code 为 Moonshot AI 的产品名称；本项目与 Moonshot AI 无隶属或授权关系。
 
 ## 版本
 
