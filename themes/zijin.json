@@ -1,0 +1,26 @@
+{
+  "name": "zijin",
+  "displayName": "星夜紫金",
+  "base": "dark",
+  "colors": {
+    "primary": "#9A77E8",
+    "accent": "#BFA0F2",
+    "text": "#EDE8F0",
+    "textStrong": "#F4F1F6",
+    "textDim": "#8E8098",
+    "textMuted": "#60516A",
+    "border": "#3A3743",
+    "borderFocus": "#9A77E8",
+    "success": "#53DDA5",
+    "warning": "#EFAE3F",
+    "error": "#F6545E",
+    "diffAdded": "#34CDA4",
+    "diffRemoved": "#D94B58",
+    "diffAddedStrong": "#53DDA5",
+    "diffRemovedStrong": "#F6545E",
+    "diffGutter": "#3A3743",
+    "diffMeta": "#ABA3B5",
+    "roleUser": "#FFD84A",
+    "shellMode": "#B79BF0"
+  }
+}

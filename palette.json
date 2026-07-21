@@ -1,0 +1,20 @@
+{
+  "name": "zijin-golden-night",
+  "version": "1.0.0",
+  "description": "kimi-cli-visual 流光配色主题存档：紫为体、金为光、玫粉为缀",
+  "flowPalette": ["#8A6FC0", "#9D8BD4", "#FF8799", "#CD96CD", "#EAC364", "#CD96CD", "#FF8799", "#9D8BD4"],
+  "logoGradient": ["#473C8B", "#6A58A6", "#9D8BD4", "#CD96CD", "#EAC364", "#B7A6E8", "#8A6FC0"],
+  "highlight": { "core": "#FFE9B3", "shoulder": "#EAC364" },
+  "sweep": {
+    "coreWidth": 0.035,
+    "shoulderWidth": 0.105,
+    "leadWidth": 0.19,
+    "trailWidth": 0.34,
+    "cycleSpan": 1.72,
+    "rate": 0.34,
+    "speed": 1.2,
+    "strength": 1.0,
+    "fps": 30
+  },
+  "themeFile": "themes/zijin.json"
+}
