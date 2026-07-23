@@ -1,0 +1,13 @@
+{
+  "name": "kimi-cli-visual",
+  "version": "2.0.0",
+  "description": "Golden Night terminal text shimmer — 紫金玫字符流光算法、终端演示与配色主题",
+  "main": "shimmer-core.js",
+  "scripts": {
+    "demo": "node demo.js",
+    "test": "node test_shimmer.js"
+  },
+  "keywords": ["terminal", "ansi", "shimmer", "animation", "tui"],
+  "license": "MIT",
+  "type": "commonjs"
+}
